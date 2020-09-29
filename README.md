@@ -22,7 +22,7 @@ Project to look  at the process of building the required infrastructure to deliv
         </tr>
         <tr>
             <td>"Docking Station"</td>
-            <td>"realease"</td>
+            <td>"release"</td>
         </tr>
         <tr>
             <td>"Bike"</td>
