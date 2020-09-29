@@ -1,38 +1,19 @@
-# BORIS_BIKES #
-Building a program to emulate the infrastruvture for Boris Bikes
+# Boris Bikes #
+Building a program that emulates the infrastructure, bikes and docking stations for Boris Bikes
 
 ## MOTIVATION ##
-Project to look  at the process of building the required infrastructure to deliver the new bike system for transport fro London's Boris Bikes.
+The creation of this project resides in the motivation to learn and and practice specific concepts.
+You can find them below:
+- Write codes that are neat and flexibles (easy to change)
+- Learn OO principles - Working with classes and Objects
+- Able to test drive my code
 
-## Functional Representation ##
+## Tech/framework used ##
+- Ruby
 
-* Functional Representation
+## Features ##
 
-  <table>
-    <thead>
-      <tr>
-        <th>object</th>
-        <th>messages</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>"Person"</td>
-            <td>"use"</td>
-        </tr>
-        <tr>
-            <td>"Docking Station"</td>
-            <td>"release"</td>
-        </tr>
-        <tr>
-            <td>"Bike"</td>
-            <td>"working" </td>
-        </tr>
-    </tbody>
-  </table>
-## Diagram Objects & Messages communication ##
-
-![Alt text](image.png)
-
-## HOW TO USE ##
-
+## Installation ##
+- gem install irb
+- xcode-select --install
+- git init
