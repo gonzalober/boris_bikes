@@ -30,6 +30,9 @@ Project to look  at the process of building the required infrastructure to deliv
         </tr>
     </tbody>
   </table>
-## Objects & Messages communication ##
+## Diagram Objects & Messages communication ##
+
+![Alt text](image.png)
+
 ## HOW TO USE ##
 
