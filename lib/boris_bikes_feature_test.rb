@@ -6,6 +6,6 @@ end
 
 class Bike
     def working?
-        puts "bike is working"
+        "bike is working"
     end
 end
