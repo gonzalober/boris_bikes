@@ -15,9 +15,8 @@ describe DockingStation do
   end
 
   it 'checks the method dock' do
-    docking_station = DockingStation.new
     bike = Bike.new
-    expect(docking_station.dock(bike)).to eq bike
+    subject.dock(bike)
+    expect(subject.bike).to eq bike
   end
-
 end
