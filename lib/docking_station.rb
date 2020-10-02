@@ -8,11 +8,13 @@ class DockingStation
         fail 'Docking station is full' if @bike
         @bike = bike
     end
+
     attr_reader :bike
+   
 end
 
 class Bike
     def working?
-        true#"bike is working"
+        true
     end
 end
