@@ -5,3 +5,4 @@ describe Bike do
     # end
       it { should respond_to :working? }
     end
+
