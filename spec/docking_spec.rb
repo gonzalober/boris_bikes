@@ -1,4 +1,4 @@
-require 'docking_station.rb' 
+require 'docking_station.rb'
 describe DockingStation do
   it 'responds release_bike or not? method' do
     expect(DockingStation.new).to respond_to('release_bike')
@@ -27,12 +27,12 @@ describe DockingStation do
         expect{subject.release_bike}.to raise_error 'no bikes available'
       end
     end
-
-  describe '#dock' do
-    it 'shows an error when dock is full' do
-      bike = Bike.new
-      docking_station = DockingStation.new
-      expect {21.times { docking_station.dock(bike)}}.to raise_error 'Docking station is full'
-    end
-  end
+  # 
+  # describe '#dock' do
+  #   it 'shows an error when dock is full' do
+  #     bike = Bike.new
+  #     docking_station = DockingStation.new
+  #     expect {21.times { docking_station.dock(bike)}}.to raise_error 'Docking station is full'
+  #   end
+  # end
 end
