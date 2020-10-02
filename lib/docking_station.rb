@@ -1,7 +1,7 @@
 class DockingStation
+  DEFAULT_CAPACITY = 20
   def release_bike
-    fail 'no bikes available' if @bikes.length == 0
-    @bikes
+    @bikes.pop
   end
 
   def initialize
@@ -17,13 +17,16 @@ class DockingStation
   private
 
   def full?
-    if (@bikes.length + 1) == 21
+    if (@bikes.length) >= DEFAULT_CAPACITY
       fail 'Docking station is full'
       return true
     end
     return false
   end
 
+  def empty?
+    fail 'no bikes available' if @bikes.length == 0
+  end
 
 end
 
