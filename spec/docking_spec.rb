@@ -1,4 +1,4 @@
-require 'docking_station.rb'
+require './docking_station.rb'
 describe DockingStation do
   it 'responds release_bike or not? method' do
     expect(DockingStation.new).to respond_to('release_bike')
